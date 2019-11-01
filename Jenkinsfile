@@ -5,7 +5,7 @@ agent any
     stage('Capture Output') {
       steps {
         script {
-          myShOutput = sh(returnStdout: true, script: 'echo "stdout from sh step"')
+          myShOutput = sh(returnStdout: true, script: 'echo "stdout from my sh step"')
         }
       }
 
